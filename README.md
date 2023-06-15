@@ -1,4 +1,4 @@
-# Business Card Project
+# GifTok Project
 
 Hello to [BigDevSoon](https://bigdevsoon.me/) 👋
 
@@ -6,9 +6,9 @@ Create a stunning website to showcase your skills and personality as a developer
 
 ## How to start
 
-1. Start the project in our [app](https://app.bigdevsoon.me/projects/business-card) to get a feel for it.
+1. Start the project in our [app](https://app.bigdevsoon.me/projects/giftok) to get a feel for it.
 2. Review the requirements listed below in this README.
-3. Go through the design assets on the [project's page](https://app.bigdevsoon.me/projects/business-card) to understand the project more.
+3. Go through the design assets on the [project's page](https://app.bigdevsoon.me/projects/giftok) to understand the project more.
 4. Clone this repository or use [GitHub Codespaces](https://github.com/features/codespaces) to set up the project environment.
 5. Choose your preferred technology stack and overwrite repository files as needed to set up your project structure. We included a few files and the `assets` folder for convenience, extracted from the design.
 6. Begin coding, either using the Freerun mode to work on each card individually or the Speedrun mode to work at your own pace. Be sure to follow the guidelines outlined below.
@@ -16,12 +16,15 @@ Create a stunning website to showcase your skills and personality as a developer
 
 ## Requirements
 
-- [ ] Create a full-page background with a centered card layout.
-- [ ] Add a user contact section on the left of the card with email, phone, and clickable social icons.
-- [ ] Add a user image in the center of the card.
-- [ ] Add a user info section on the right of the card with name, position, location, description, and technologies.
-- [ ] Implement absolute-positioned shapes to improve the layout.
-- [ ] Enhance user experience with animations, such as image-loading skeleton animation or fade-in effects.
+- [ ] Research and explore the Giphy API's trending endpoint, which can return a maximum of 25 GIFs and has an offset limit of up to 5000 GIFs. Store the API key securely as an environment variable.
+- [ ] Implement the mobile version of GifTok, starting with displaying a single GIF from the trending endpoint.
+- [ ] Enable loading more GIFs by utilizing parameters such as limit and offset, allowing users to swipe to view the next GIF.
+Implement swipe functionality to enable users to navigate back to the previous GIF, ensuring it stops at the first GIF when reaching the beginning.
+- [ ] Load more GIFs as the user approaches the end to provide a seamless transition, allowing for infinite scrolling until no more GIFs are available (which is unlikely to occur with 5000 possible GIFs).
+- [ ] Display the user's avatar URL, username, and GIF title in the bottom-left corner of the GIF.
+- [ ] Implement skeleton loading animations while new GIFs are being loaded to enhance the user experience during fast swiping.
+- [ ] Develop the desktop version of GifTok, either utilizing the Giphy Grid component or a custom implementation, displaying skeleton loaders as GIFs load, and providing an animated loader when scrolling for more GIFs. Show user details and GIF titles on hover, similar to the mobile version.
+- [ ] Handle edge cases such as no more GIFs to load, error handling, and other potential scenarios that may arise.
 
 ## Guidelines
 
