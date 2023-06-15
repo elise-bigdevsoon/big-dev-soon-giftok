@@ -16,10 +16,10 @@ Build a dynamic GIF exploration application with swipe navigation for mobile and
 
 ## Requirements
 
-- [ ] Research and explore the Giphy API's trending endpoint, which can return a maximum of 25 GIFs and has an offset limit of up to 5000 GIFs. Store the API key securely as an environment variable.
+- [ ] Research and explore the [Giphy API's](https://developers.giphy.com/docs/api/endpoint/#trending) trending endpoint, which can return a maximum of 25 GIFs at once and has an offset limit of up to 5000 GIFs. Study [The GIF Object](https://developers.giphy.com/docs/api/schema/#gif-object) and store the API key securely as an environment variable.
 - [ ] Implement the mobile version of GifTok, starting with displaying a single GIF from the trending endpoint.
 - [ ] Enable loading more GIFs by utilizing parameters such as limit and offset, allowing users to swipe to view the next GIF.
-      Implement swipe functionality to enable users to navigate back to the previous GIF, ensuring it stops at the first GIF when reaching the beginning.
+- [ ] Implement swipe functionality to enable users to navigate back to the previous GIF, ensuring it stops at the first GIF when reaching the beginning.
 - [ ] Load more GIFs as the user approaches the end to provide a seamless transition, allowing for infinite scrolling until no more GIFs are available (which is unlikely to occur with 5000 possible GIFs).
 - [ ] Display the user's avatar URL, username, and GIF title in the bottom-left corner of the GIF.
 - [ ] Implement skeleton loading animations while new GIFs are being loaded to enhance the user experience during fast swiping.
