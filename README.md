@@ -2,7 +2,7 @@
 
 Hello to [BigDevSoon](https://bigdevsoon.me/) 👋
 
-Build a dynamic GIF exploration application with swipe navigation for mobile and a grid layout for desktop.
+Build a GIF exploration platform for mobile and desktop layouts.
 
 ## How to start
 
@@ -23,7 +23,7 @@ Build a dynamic GIF exploration application with swipe navigation for mobile and
 - [ ] Load more GIFs as the user approaches the end to provide a seamless transition, allowing for infinite scrolling until no more GIFs are available (which is unlikely to occur with 5000 possible GIFs).
 - [ ] Display the user's avatar URL, username, and GIF title in the bottom-left corner of the GIF.
 - [ ] Implement skeleton loading animations while new GIFs are being loaded to enhance the user experience during fast swiping.
-- [ ] Develop the desktop version of GifTok, either utilizing the Giphy Grid component or a custom implementation, displaying skeleton loaders as GIFs load, and providing an animated loader when scrolling for more GIFs. Show user details and GIF titles on hover, similar to the mobile version.
+- [ ] Develop the desktop version of GifTok, either utilizing the [Giphy Grid](https://github.com/Giphy/giphy-js/blob/master/packages/react-components/README.md#grid) component or a custom implementation, displaying skeleton loaders as GIFs load, and providing an animated loader when scrolling for more GIFs. Show user details and GIF titles on hover, similar to the mobile version.
 - [ ] Handle edge cases such as no more GIFs to load, error handling, and other potential scenarios that may arise.
 
 ## Guidelines
